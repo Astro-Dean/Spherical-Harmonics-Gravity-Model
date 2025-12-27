@@ -5,8 +5,7 @@ Created a fully-normalized spherical harmonics Earth gravity model with WGS84 sa
 
 User must download EGM2008 gravity model file for coefficients.
 
-Link here:
-National Geospatial-Intelligence Agency: <https://earth-info.nga.mil>
+National Geospatial-Intelligence Agency (EGM2008 files): <https://earth-info.nga.mil>
 
 ## Future Work
 * Add EOM for satellites in motion in the inertial frame
