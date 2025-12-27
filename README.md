@@ -9,4 +9,4 @@ National Geospatial-Intelligence Agency (EGM2008 files): <https://earth-info.nga
 
 ## Future Work
 * Add EOM for satellites in motion in the inertial frame
-* Add derivates of potential functions for calculating accelerations
+* Add derivatives of potential functions for calculating accelerations
