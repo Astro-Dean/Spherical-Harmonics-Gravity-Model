@@ -1,0 +1,13 @@
+import numpy as np
+from earthgrav import EarthGravityModel
+
+model = EarthGravityModel("data/EGM2008_to2190_TideFree", Nmax=20)
+
+lon = np.deg2rad(0.0)
+lat = np.deg2rad(0.0)
+
+V = model.potential(lon, lat, h=0.0)
+T = model.disturbing_potential(lon, lat, h=0.0)
+
+print("V:", V)
+print("T:", T)
